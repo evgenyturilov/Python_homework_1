@@ -15,4 +15,4 @@ print(sum_of_odd_elements(my_nums))
 
 my_nums = [1, 2, 1, 2, 3, 1]
 
-print(sum([my_nums[i] for i in range(len(my_nums)) if i%2 != 0 ]))
+print(sum([my_nums[i] for i in range(len(my_nums)) if not i%2]))
